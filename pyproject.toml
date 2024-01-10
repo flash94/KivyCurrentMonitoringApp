@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "currentreceiver"
+version = "0.1.0"
+description = ""
+authors = ["Bello"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+kivy = "^2.2.1"
+paho-mqtt = "^1.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
